@@ -1,18 +1,21 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* border: 1px solid red; */
 }
-/* Navbar Styles Starts */
+/* Header Styles Starts */
 .nav-container{
-    height: 12vh;
-    background-color: aqua;
+    background-color: #737972c4;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    padding: 20px;
+    color: white;
 }
 .logo-container{
     display: flex;
-    padding: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
@@ -23,39 +26,41 @@
     list-style: none;
 }
 .item{
-    padding: 35px;
-    font-size: 25px;
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
-/* Navbar Styles End */
+/* Header Styles End */
 
-/* Header Styles Starts */
-.header-container{
-    background-image: url("../asset/image/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* Banner Styles Starts */
+.banner-container{
     height: 100vh;
-}
-.header-info{
+    width: 100%;
+    background-image:url("../asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 15%;
 }
-.header-title{
-    color: white;
-    font-size: 130px;
-    font-weight: 700;
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 700;  
+    margin-bottom: 10px;
 }
 span{
     color: red;
 }
-.header-info-details{
+.banner-info-details{
+    width: 50%;
     color: white;
-    font-size: 25px;
-    margin: 2% 40%;
+    font-size: 22px;
+    margin: auto;
 }
-
 .btn-one{
     color:white;
     padding: 15px 20px;
@@ -69,3 +74,4 @@ span{
     border-radius: 10px;
 
 }
+/* Banner Styles Ends */
